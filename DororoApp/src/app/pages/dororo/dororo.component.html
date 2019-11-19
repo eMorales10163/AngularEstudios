@@ -1,8 +1,8 @@
 <div class="container margen">
     <div class="row">
-        <div class="col-sm-6" *ngFor="let objeto of objetos">
+        <div class="col-sm-3" *ngFor="let objeto of objetos">
             <div class="card" [ngClass]="(objeto.robado)? 'text-white bg-danger mb-3':'text-white bg-success mb-3'">
-                <img src="..." class="card-img-top" alt="...">
+                <img [src]="objeto.imagen" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h4 class="card-title">Objeto : {{objeto.objeto}}</h4>
                     <h5 class="card-subtitle">Robado : {{objeto.robado | activeBlocked}} </h5>

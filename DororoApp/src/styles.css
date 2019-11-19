@@ -24,10 +24,12 @@ img {
     max-width: 1200px;
     width: 95%;
     margin: 0 auto;
+    text-align: center;
 }
 
 .margen {
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .tamaño-card {
@@ -39,6 +41,7 @@ img {
 
 .barra {
     background-color: black;
+    padding: 0;
 }
 
 .navegacion-principal a {

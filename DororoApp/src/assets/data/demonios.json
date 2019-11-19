@@ -1,17 +1,36 @@
 {
     "demoniosList": [{
             "id": "1",
-            "nombre": "Banmon",
-            "vivo": false,
-            "parteCuerpo": "brazo",
-            "descripcion": "Tiene el brazo"
+            "nombre": "Jorogumo",
+            "vivo": true,
+            "parteCuerpo": "Ninguna",
+            "imagen": "../../../assets/img/Jorogumo.png",
+            "descripcion": "Jorogumo (絡 新婦, Jorōgumo) es una demonio araña que Hyakkimaru encuentra por primera, esta vez alimentándose de un hombre. Toma la apariencia de una mujer hermosa."
         },
         {
-            "id": "1",
-            "nombre": "Tahomaru",
-            "vivo": true,
-            "parteCuerpo": "ojo",
-            "descripcion": "Tiene el ojo"
+            "id": "2",
+            "nombre": "Nihil",
+            "vivo": false,
+            "parteCuerpo": "orejas",
+            "imagen": "../../../assets/img/Nihil.png",
+            "descripcion": "Nihil (似 蛭, Nihiru) fue uno de los doce demonios que hicieron un contrato con Daigo Kagemitsu. Fue el demonio que tomó las orejas de Hyakkimaru."
+        },
+        {
+            "id": "3",
+            "nombre": "Nokosaregumo",
+            "vivo": false,
+            "parteCuerpo": "nariz",
+            "imagen": "../../../assets/img/Nokosaregumo.png",
+            "descripcion": "Nokosaregumo (残 さ れ 雲, Nokosaregumo) fue uno de los doce demonios que hicieron un contrato con Kagemitsu Daigo. Fue el demonio el que tomó la nariz de Hyakkimaru y su sentido del olfato."
+        },
+        {
+            "id": "4",
+            "nombre": "Deiki",
+            "vivo": false,
+            "parteCuerpo": "Piel",
+            "imagen": "../../../assets/img/deiki.jpg",
+            "descripcion": "Deiki (泥 鬼, Deiki) era un demonio de barro / tierra y uno de los doce demonios que hicieron tratos con Daigo Kagemitsu. Fue el demonio que tomó la piel de Hyakkimaru."
         }
+
     ]
 }

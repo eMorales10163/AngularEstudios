@@ -3,5 +3,6 @@ export class DemonioModel {
     nombre: string;
     vivo: any;
     parteCuerpo: string;
+    imagen: string;
     descripcion: string;
 }

@@ -1,15 +1,31 @@
 {
     "objetosList": [{
             "id": "1",
-            "objeto": "pergamino",
-            "descripcion": "un pergamino",
+            "objeto": "Ohagi",
+            "descripcion": "El botamochi es un dulce hecho de arroz glutinoso y arroz no glutinoso mezclados con pasta de anko.",
+            "imagen": "../../../assets/img/Ohagi.jpg",
             "robado": true
         },
         {
-            "id": "1",
-            "objeto": "oro",
-            "descripcion": "oro no robado",
+            "id": "2",
+            "objeto": "Katanas",
+            "descripcion": "Katanas que Hyakkimaru porta en vez de manos",
+            "imagen": "../../../assets/img/Katana.png",
             "robado": false
+        },
+        {
+            "id": "3",
+            "objeto": "Sombrilla",
+            "descripcion": "Los parasoles o paraguas de papel aceite (en chino tradicional: 油纸伞, simplificado: 油纸伞, pinyin: yóuzhǐ sǎn) son un tipo de sombrilla de papel o tela originario de la China. ",
+            "imagen": "../../../assets/img/Sombrilla.jpg",
+            "robado": false
+        },
+        {
+            "id": "4",
+            "objeto": "Oro",
+            "descripcion": "La palabra 'yen' se pronuncia 'en' en japonés. La palabra (shinjitai: 円, chino tradicional / Kyūjitai: 圓) significa literalmente 'objeto redondo' en japonés, de la misma forma que 'yuan' en chino o ganado en coreano. ",
+            "imagen": "../../../assets/img/Dinero.jpg",
+            "robado": true
         }
     ]
 }

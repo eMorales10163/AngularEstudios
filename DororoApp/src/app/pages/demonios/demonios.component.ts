@@ -20,7 +20,7 @@ export class DemoniosComponent implements OnInit {
     this.demonioService.getDemoniosList()
       .subscribe((response: any) => {
         this.demonios = response.demoniosList;
-
+        console.log(this.demonios);
       });
   }
 
