@@ -1,0 +1,17 @@
+{
+    "demoniosList": [{
+            "id": "1",
+            "nombre": "Banmon",
+            "vivo": false,
+            "parteCuerpo": "brazo",
+            "descripcion": "Tiene el brazo"
+        },
+        {
+            "id": "1",
+            "nombre": "Tahomaru",
+            "vivo": true,
+            "parteCuerpo": "ojo",
+            "descripcion": "Tiene el ojo"
+        }
+    ]
+}

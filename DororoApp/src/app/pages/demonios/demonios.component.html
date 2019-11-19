@@ -1,0 +1,15 @@
+<div class="container margen">
+    <div class="row">
+        <div class="col-sm-6" *ngFor="let demonio of demonios">
+            <div class="card" [ngClass]="(demonio.vivo)? 'text-white bg-danger mb-3':'text-white bg-success mb-3'">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Nombre : {{demonio.nombre}}</h5>
+                    <h5 class="card-subtitle">Estado : {{demonio.vivo | activeBlocked}}</h5>
+                    <p class="card-text">Descripcion : {{demonio.descripcion}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button [routerLink]="['/']" class="btn btn-primary">Volver</button>
+</div>

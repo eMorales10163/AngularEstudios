@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+}
+
+
+/** Globales **/
+
+img {
+    max-width: 86%;
+}
+
+.contenedor {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.margen {
+    margin-top: 40px;
+}
+
+.tamaño-card {
+    width: 25%;
+}
+
+
+/** Navegacion **/
+
+.barra {
+    background-color: black;
+}
+
+.navegacion-principal a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.navegacion-principal a:hover {
+    background-color: Red;
+}

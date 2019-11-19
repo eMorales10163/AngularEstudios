@@ -1,0 +1,15 @@
+{
+    "objetosList": [{
+            "id": "1",
+            "objeto": "pergamino",
+            "descripcion": "un pergamino",
+            "robado": true
+        },
+        {
+            "id": "1",
+            "objeto": "oro",
+            "descripcion": "oro no robado",
+            "robado": false
+        }
+    ]
+}
