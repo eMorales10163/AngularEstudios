@@ -10,6 +10,7 @@ import { DemoniosComponent } from './pages/demonios/demonios.component';
 import { MarcadorComponent } from './pages/marcador/marcador.component';
 import { ActiveBlockedPipe } from './pipes/active-blocked.pipe';
 import { NavbarComponent } from './theme/components/navbar/navbar.component';
+import { ActiveBlockedVivoPipe } from './pipes/active-blocked-vivo.pipe';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NavbarComponent } from './theme/components/navbar/navbar.component';
     DemoniosComponent,
     MarcadorComponent,
     ActiveBlockedPipe,
-    NavbarComponent
+    NavbarComponent,
+    ActiveBlockedVivoPipe
   ],
   imports: [
     BrowserModule,

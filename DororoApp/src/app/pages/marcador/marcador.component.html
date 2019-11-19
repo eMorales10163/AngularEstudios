@@ -1,13 +1,25 @@
-<table class="table">
-    <thead>
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
-        </tr>
-    </thead>
-    <tbody>
+<div class="container margen">
+    <table class="table table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Demonio</th>
+                <th scope="col">Parte</th>
+                <th scope="col">Estado</th>
+            </tr>
+        </thead>
+        <tbody [ngClass]="(demonio.vivo)? 'text-white bg-danger mb-3':'text-white bg-success mb-3'" *ngFor="let demonio of demonios">
+            <td>{{demonio.nombre}}</td>
+            <td>{{demonio.parteCuerpo}}</td>
+            <td>{{demonio.vivo | ActiveBlockedVivoPipe }}</td>
+        </tbody>
+    </table>
 
-    </tbody>
-</table>
+    <div class="column-drop-flex">
+        <div class="imagen1">
+            <img src="../../../assets/img/Dororo-900x506.png" alt="">
+        </div>
+        <div class="imagen2">
+            <img src="../../../assets/img/Dororo-900x506.png" alt="">
+        </div>
+    </div>
+</div>

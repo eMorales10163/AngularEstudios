@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { DemonioService } from '../../services/demonio.service';
+import { DemonioModel } from 'src/app/models/demonio.model';
 
 @Component({
   selector: 'app-marcador',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MarcadorComponent implements OnInit {
 
-  constructor() { }
+  public demonios: DemonioModel[] = [];
+
+  constructor(public demonioService: DemonioService) { }
 
   ngOnInit() {
+    this.demonioService.getDemoniosList()
+      .subscribe((response: any) => {
+        this.demonios = response.demoniosList;
+      });
   }
 
 }
